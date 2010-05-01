@@ -1,0 +1,81 @@
+THE GNU C LIBRARY
+
+Main Menu
+*********
+
+This is Edition 0.12, last updated 2007-10-27, of `The GNU C Library
+Reference Manual', for Version 2.8 (EGLIBC) of the GNU C Library.
+
+* Menu:
+
+* Introduction::                 Purpose of the GNU C Library.
+* Error Reporting::              How library functions report errors.
+* Memory::                       Allocating virtual memory and controlling
+                                   paging.
+* Character Handling::           Character testing and conversion functions.
+* String and Array Utilities::   Utilities for copying and comparing strings
+                                   and arrays.
+* Character Set Handling::       Support for extended character sets.
+* Locales::                      The country and language can affect the
+                                   behavior of library functions.
+* Message Translation::          How to make the program speak the user's
+                                   language.
+* Searching and Sorting::        General searching and sorting functions.
+* Pattern Matching::             Matching shell ``globs'' and regular
+                                   expressions.
+* I/O Overview::                 Introduction to the I/O facilities.
+* I/O on Streams::               High-level, portable I/O facilities.
+* Low-Level I/O::                Low-level, less portable I/O.
+* File System Interface::        Functions for manipulating files.
+* Pipes and FIFOs::              A simple interprocess communication
+                                   mechanism.
+* Sockets::                      A more complicated IPC mechanism, with
+                                   networking support.
+* Low-Level Terminal Interface:: How to change the characteristics of a
+                                   terminal device.
+* Syslog::                       System logging and messaging.
+* Mathematics::                  Math functions, useful constants, random
+                                   numbers.
+* Arithmetic::                   Low level arithmetic functions.
+* Date and Time::                Functions for getting the date and time and
+                                   formatting them nicely.
+* Resource Usage And Limitation:: Functions for examining resource usage and
+                                   getting and setting limits.
+* Non-Local Exits::              Jumping out of nested function calls.
+* Signal Handling::              How to send, block, and handle signals.
+* Program Basics::               Writing the beginning and end of your
+                                   program.
+* Processes::                    How to create processes and run other
+                                   programs.
+* Job Control::                  All about process groups and sessions.
+* Name Service Switch::          Accessing system databases.
+* Users and Groups::             How users are identified and classified.
+* System Management::            Controlling the system and getting
+                                   information about it.
+* System Configuration::         Parameters describing operating system
+                                   limits.
+* Cryptographic Functions::      DES encryption and password handling.
+* Debugging Support::            Functions to help debugging applications.
+
+Appendices
+
+* Language Features::            C language features provided by the library.
+* Library Summary::              A summary showing the syntax, header file,
+                                   and derivation of each library feature.
+* Installation::                 How to install the GNU C library.
+* Maintenance::                  How to enhance and port the GNU C Library.
+* Contributors::                 Who wrote what parts of the GNU C library.
+* Free Manuals::                 Free Software Needs Free Documentation.
+* Copying::                      The GNU Lesser General Public License says
+                                  how you can copy and share the GNU C Library.
+* Documentation License::        This manual is under the GNU Free
+                                  Documentation License.
+
+Indices
+
+* Concept Index::                Index of concepts and names.
+* Type Index::                   Index of types and type qualifiers.
+* Function Index::               Index of functions and function-like macros.
+* Variable Index::               Index of variables and variable-like macros.
+* File Index::                   Index of programs and files.
+
