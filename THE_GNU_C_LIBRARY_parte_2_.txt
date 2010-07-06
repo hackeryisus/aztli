@@ -1,0 +1,85 @@
+--- The Detailed Node Listing ---
+
+Introduction
+
+* Getting Started::             What this manual is for and how to use it.
+* Standards and Portability::   Standards and sources upon which the GNU
+                                 C library is based.
+* Using the Library::           Some practical uses for the library.
+* Roadmap to the Manual::       Overview of the remaining chapters in
+                                 this manual.
+
+Standards and Portability
+
+* ISO C::                       The international standard for the C
+                                 programming language.
+* POSIX::                       The ISO/IEC 9945 (aka IEEE 1003) standards
+                                 for operating systems.
+* Berkeley Unix::               BSD and SunOS.
+* SVID::                        The System V Interface Description.
+* XPG::                         The X/Open Portability Guide.
+
+Using the Library
+
+* Header Files::                How to include the header files in your
+                                 programs.
+* Macro Definitions::           Some functions in the library may really
+                                 be implemented as macros.
+* Reserved Names::              The C standard reserves some names for
+                                 the library, and some for users.
+* Feature Test Macros::         How to control what names are defined.
+
+Error Reporting
+
+* Checking for Errors::         How errors are reported by library functions.
+* Error Codes::                 Error code macros; all of these expand
+                                 into integer constant values.
+* Error Messages::              Mapping error codes onto error messages.
+
+Memory
+
+* Memory Concepts::             An introduction to concepts and terminology.
+* Memory Allocation::           Allocating storage for your program data
+* Locking Pages::               Preventing page faults
+* Resizing the Data Segment::   `brk', `sbrk'
+
+Memory Allocation
+
+* Memory Allocation and C::     How to get different kinds of allocation in C.
+* Unconstrained Allocation::    The `malloc' facility allows fully general
+                                 dynamic allocation.
+* Allocation Debugging::        Finding memory leaks and not freed memory.
+* Obstacks::                    Obstacks are less general than malloc
+                                 but more efficient and convenient.
+* Variable Size Automatic::     Allocation of variable-sized blocks
+                                 of automatic storage that are freed when the
+                                 calling function returns.
+
+Unconstrained Allocation
+
+* Basic Allocation::            Simple use of `malloc'.
+* Malloc Examples::             Examples of `malloc'.  `xmalloc'.
+* Freeing after Malloc::        Use `free' to free a block you
+                                 got with `malloc'.
+* Changing Block Size::         Use `realloc' to make a block
+                                 bigger or smaller.
+* Allocating Cleared Space::    Use `calloc' to allocate a
+                                 block and clear it.
+* Efficiency and Malloc::       Efficiency considerations in use of
+                                 these functions.
+* Aligned Memory Blocks::       Allocating specially aligned memory.
+* Malloc Tunable Parameters::   Use `mallopt' to adjust allocation
+                                 parameters.
+* Heap Consistency Checking::   Automatic checking for errors.
+* Hooks for Malloc::            You can use these hooks for debugging
+                                 programs that use `malloc'.
+* Statistics of Malloc::        Getting information about how much
+                                 memory your program is using.
+* Summary of Malloc::           Summary of `malloc' and related functions.
+
+Allocation Debugging
+
+* Tracing malloc::               How to install the tracing functionality.
+* Using the Memory Debugger::    Example programs excerpts.
+* Tips for the Memory Debugger:: Some more or less clever ideas.
+
